@@ -7,7 +7,8 @@ interface Instance {
   port: number,                                       //Port of instance
   weight?: number,
   ephemeral?: boolean,
-  clusterName?: string
+  clusterName?: string,
+  metadata?: {}
 }
 
 type Hosts = string[];
